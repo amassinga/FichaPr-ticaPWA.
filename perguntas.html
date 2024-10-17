@@ -1,4 +1,45 @@
-1 - O que são operações de “Commit”, “Push” e “Pop” efetuadas num repositório?
-2 – Quais sáo as vantagens de usar Branchs num repositório git?
-3 – Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em que consistem e como podem ser resolvidos esses conflitos?
-4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as diferenças entre eles?
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas e Respostas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Perguntas e Respostas</h1>
+
+    <h2>1 - O que são operações de “Commit”, “Push” e “Pop” efetuadas num repositório?</h2>
+    <p><strong>Commit:</strong> O commit é a ação de salvar alterações no repositório local. Quando você faz um commit, você registra o estado atual do seu projeto, permitindo que você volte a esse ponto no futuro. É uma forma de capturar o histórico das mudanças que foram feitas.</p>
+    <p><strong>Push:</strong> O push é a operação que envia os commits do seu repositório local para o repositório remoto (por exemplo, no GitHub). Isso torna suas alterações disponíveis para outros colaboradores.</p>
+    <p><strong>Pop:</strong> O pop é um comando geralmente associado ao gerenciamento de pilhas em Git, especificamente para "stash". O comando git stash pop aplica as alterações salvas no stash de volta à sua árvore de trabalho.</p>
+
+    <h2>2 - Quais são as vantagens de usar Branchs num repositório Git?</h2>
+    <p><strong>Isolamento de desenvolvimento:</strong> As branches permitem que você trabalhe em novas funcionalidades ou correções de bugs de forma isolada.</p>
+    <p><strong>Facilidade de teste:</strong> Você pode testar novas funcionalidades ou melhorias em uma branch separada.</p>
+    <p><strong>Colaboração:</strong> Várias pessoas podem trabalhar em diferentes branches simultaneamente.</p>
+    <p><strong>Integração e gerenciamento de conflitos:</strong> Com as branches, é mais fácil integrar mudanças por meio de merge ou rebase.</p>
+
+    <h2>3 - Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em que consistem e como podem ser resolvidos esses conflitos?</h2>
+    <p><strong>Conflitos:</strong> Conflitos em Git ocorrem quando as mudanças feitas em duas branches diferentes não podem ser combinadas automaticamente.</p>
+    <p><strong>Resolução de conflitos:</strong> Após um merge ou pop que resulta em um conflito, o Git indicará quais arquivos estão em conflito. Você precisará decidir qual versão do código deve ser mantida.</p>
+
+    <h2>4 - “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as diferenças entre eles?</h2>
+    <p><strong>Clone:</strong> O clone cria uma cópia local de um repositório remoto.</p>
+    <p><strong>Fork:</strong> O fork cria uma cópia do repositório remoto na sua conta do GitHub, permitindo que você trabalhe e contribua sem afetar o repositório original.</p>
+
+</body>
+</html>
